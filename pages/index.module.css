@@ -1,0 +1,27 @@
+.content,
+.index1,
+.main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.main {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0 46px;
+}
+.content,
+.index1 {
+  flex-direction: column;
+}
+.content {
+  align-self: stretch;
+}
+.index1 {
+  width: 100%;
+  position: relative;
+  background-image: url(/index@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Rebond+Grotesque:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-inter: Inter;
+  --font-rebond-grotesque: "Rebond Grotesque";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-xl: 20px;
+  --font-size-smi: 13px;
+  --font-size-4xs: 9px;
+  --font-size-3xl: 22px;
+
+  /* Colors */
+  --text-color: #fff;
+  --color-gray-100: rgba(255, 255, 255, 0.1);
+  --color-gray-200: rgba(255, 255, 255, 0.15);
+  --color-gray-300: rgba(255, 255, 255, 0.3);
+  --text-color-alt: #999;
+  --text-color1: #000;
+
+  /* Gaps */
+  --gap-5xl: 24px;
+  --gap-base: 16px;
+  --gap-11xs: 2px;
+  --gap-0: 0px;
+  --gap-xs: 12px;
+  --gap-7xs: 6px;
+  --gap-5xs: 8px;
+
+  /* Paddings */
+  --padding-29xl: 48px;
+  --padding-9xl: 28px;
+  --padding-base: 16px;
+  --padding-xs: 12px;
+  --padding-3xs: 10px;
+  --padding-4xs: 9px;
+  --padding-5xs: 8px;
+  --padding-6xs: 7px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-3xs: 10px;
+  --br-21xl: 40px;
+  --br-29xl: 48px;
+}

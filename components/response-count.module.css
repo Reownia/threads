@@ -1,0 +1,26 @@
+.respostas {
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 19px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.respostasECurtidasChild {
+  width: 2px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--text-color-alt);
+  height: 2px;
+}
+.respostasECurtidas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 4px;
+  text-align: left;
+  font-size: var(--font-size-smi);
+  color: var(--text-color-alt);
+  font-family: var(--font-inter);
+}

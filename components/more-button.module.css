@@ -1,0 +1,18 @@
+.dotsChild {
+  width: 3px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--text-color);
+  height: 3px;
+}
+.dots {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 2px;
+}

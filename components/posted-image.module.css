@@ -1,0 +1,7 @@
+.imageIcon {
+  height: auto;
+  width: 390px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  object-fit: cover;
+}

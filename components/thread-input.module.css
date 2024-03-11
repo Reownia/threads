@@ -1,0 +1,39 @@
+.avatarIcon {
+  width: 36px;
+  position: relative;
+  height: 36px;
+}
+.thread {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.infos,
+.thread {
+  align-self: stretch;
+  flex-direction: column;
+}
+.infos,
+.infosActions,
+.threadInput {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.infosActions {
+  flex: 1;
+  flex-direction: column;
+}
+.threadInput {
+  align-self: stretch;
+  border-bottom: 1px solid var(--color-gray-200);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-base) var(--padding-base)
+    var(--padding-xs);
+  gap: 0 12px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--text-color);
+  font-family: var(--font-inter);
+}

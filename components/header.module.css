@@ -1,0 +1,103 @@
+.threadsLogoIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.threads {
+  position: relative;
+  line-height: 19px;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.logo {
+  width: 401px;
+  border-bottom: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-base) var(--padding-base)
+    var(--padding-xs);
+  gap: 0 4px;
+}
+.homeIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.nav,
+.navCenterItems {
+  display: flex;
+  flex-direction: row;
+}
+.nav {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 48px;
+}
+.navCenterItems {
+  width: 640px;
+  border-bottom: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-base) var(--padding-base)
+    var(--padding-xs);
+}
+.hamburgerIcon,
+.logo2Icon {
+  width: 22px;
+  position: relative;
+  height: 22px;
+}
+.hamburgerIcon {
+  width: 18px;
+  height: 8px;
+}
+.righInfos {
+  justify-content: flex-start;
+  gap: 0 22px;
+}
+.header,
+.righInfos,
+.rightNavitem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rightNavitem {
+  width: 400px;
+  border-bottom: 1px solid var(--color-gray-200);
+  box-sizing: border-box;
+  height: 56px;
+  justify-content: flex-end;
+  padding: var(--padding-base) var(--padding-base) var(--padding-base)
+    var(--padding-xs);
+}
+.header {
+  align-self: stretch;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-3xl);
+  color: var(--text-color);
+  font-family: var(--font-rebond-grotesque);
+}
+@media screen and (max-width: 960px) {
+  .logo {
+    width: auto;
+    align-self: unset;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+@media screen and (max-width: 720px) {
+  .navCenterItems {
+    display: none;
+  }
+}
